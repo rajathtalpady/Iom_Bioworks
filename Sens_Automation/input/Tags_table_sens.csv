@@ -1,0 +1,12 @@
+Label,Tag1,Tag2,Tag3
+Carbohydrate Fermenter,../static/ThumbsDown.png,../static/Moderate.png,../static/ThumbsDown.png
+Dietary Fibre Degrader,../static/ThumbsDown.png,../static/Moderate.png,../static/ThumbsDown.png
+Immunity,../static/ThumbsUp.png,../static/Moderate.png,../static/ThumbsDown.png
+Protein Metabolism,../static/ThumbsUp.png,../static/Moderate.png,../static/ThumbsDown.png
+Energy Producers,../static/ThumbsUp.png,../static/Moderate.png,../static/ThumbsDown.png
+Lactic Acid Producer,../static/ThumbsDown.png,../static/Moderate.png,../static/ThumbsDown.png
+Heart Health Influencer,Alarm,../static/ThumbsDown.png,../static/ThumbsUp.png
+Pathogen,Alarm,../static/ThumbsDown.png,../static/ThumbsUp.png
+Weight Influencer,Alarm,../static/ThumbsDown.png,../static/ThumbsUp.png
+Insulin Metabolism,Alarm,Alarm,Absent
+Probiotic,../static/ThumbsUp.png,../static/Moderate.png,../static/ThumbsDown.png
