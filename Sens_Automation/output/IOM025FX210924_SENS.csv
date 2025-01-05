@@ -1,0 +1,34 @@
+#OTU ID,IOM025FX210924,Optimal_Abundance,Change_Diff,Energy,Sleep,Stress,Labels,Positive Impact
+Megasphaera,34.79,0.44,-34.35,,,,Dietary Fibre Degrader,Yes
+Megasphaera,34.79,0.44,-34.35,,,,Insulin Metabolism,No
+Lactobacillus,11.46,10.73,-0.73,0.0,1.0,1.0,Insulin Metabolism,No
+Lactobacillus,11.46,10.73,-0.73,0.0,1.0,1.0,Lactic Acid Producer,Yes
+Lactobacillus,11.46,10.73,-0.73,0.0,1.0,1.0,Probiotic,Yes
+Pediococcus,10.7,0.07,-10.63,,,,Carbohydrate Fermenter,Yes
+Pediococcus,10.7,0.07,-10.63,,,,Lactic Acid Producer,Yes
+Prevotella,7.47,0.16,-7.31,0.0,-2.0,1.0,Dietary Fibre Degrader,Yes
+Ruminococcus,4.24,25.97,21.73,2.0,1.0,1.0,Insulin Metabolism,No
+Gastranaerophilales,4.19,0.08,-4.11,,,,Heart Health Influencer,No
+Bifidobacterium,3.77,18.19,14.42,1.0,1.0,1.0,Immunity,Yes
+Bifidobacterium,3.77,18.19,14.42,1.0,1.0,1.0,Insulin Metabolism,No
+Bifidobacterium,3.77,18.19,14.42,1.0,1.0,1.0,Lactic Acid Producer,Yes
+Bifidobacterium,3.77,18.19,14.42,1.0,1.0,1.0,Probiotic,Yes
+Romboutsia,3.09,0.07,-3.02,,,,Protein Metabolism,Yes
+Dialister,2.71,0.34,-2.37,1.0,0.0,0.0,Dietary Fibre Degrader,Yes
+Dialister,2.71,0.34,-2.37,1.0,0.0,0.0,Gut Inflammation,No
+Faecalibacterium,2.56,8.06,5.5,5.0,3.0,1.0,Dietary Fibre Degrader,Yes
+Faecalibacterium,2.56,8.06,5.5,5.0,3.0,1.0,Energy Producers,Yes
+Blautia,1.99,1.65,-0.34,0.0,5.0,1.0,Immunity,Yes
+Blautia,1.99,1.65,-0.34,0.0,5.0,1.0,Dietary Fibre Degrader,Yes
+Blautia,1.99,1.65,-0.34,0.0,5.0,1.0,Energy Producers,Yes
+Blautia,1.99,1.65,-0.34,0.0,5.0,1.0,Weight Influencer,Yes
+no_genus,1.95,0.08,-1.87,,,,,
+Agathobacter,1.17,0.07,-1.1,,,,Dietary Fibre Degrader,Yes
+Megamonas,0.77,0.34,-0.43,0.0,1.0,0.0,Dietary Fibre Degrader,Yes
+Megamonas,0.77,0.34,-0.43,0.0,1.0,0.0,Insulin Metabolism,No
+Sutterella,0.74,0.08,-0.66,0.0,-1.0,1.0,Fat Intake,No
+Lachnospira,0.73,0.07,-0.66,,,,Carbohydrate Fermenter,Yes
+Lachnospira,0.73,0.07,-0.66,,,,Energy Producers,Yes
+Subdoligranulum,0.58,0.34,-0.24,1.0,0.0,0.0,Heart Health Influencer,Yes
+Holdemanella,0.55,0.07,-0.48,,,,Carbohydrate Fermenter,Yes
+Holdemanella,0.55,0.07,-0.48,,,,Immunity,Yes

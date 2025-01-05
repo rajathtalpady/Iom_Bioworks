@@ -1,0 +1,13 @@
+Labels,SUM of IOM032FX101024,Indicator,Levels,Text
+Insulin Metabolism,60.82,Alarm,High,A high abundance of insulin resistence bacteria shows a distinct pattern to carbohydrate metabolism and an increased movement towards metabolic challenges.
+Lactic Acid Producer,47.74,../static/ThumbsDown.png,High,"However, a High abundance of LABs has been seen in those with gut inflammation, weight gain, insulin resistence and other metabolic disorders"
+Probiotic,42.51,../static/ThumbsUp.png,High,"A high abundance of these bacteria contributes to various health benefits in particular realted to gut function , digestive health and reducing inflammation."
+Immunity,31.38,../static/ThumbsUp.png,High,A Moderate to High abundance of bacteria that enable better immunity provide protection to the body against inflammation and resistance to disease.
+Protein Metabolism,13.28,../static/Moderate.png,Medium,A Moderate abundance of protein metabolising bacteria indicates a fair contribution from your microbiome to your health.
+Dietary Fibre Degrader,9.2,../static/ThumbsDown.png,Low,"A Low abundance of these useful bacteria adds to inflammation, non-communicable conditions and poor health outcomes."
+Pathogen,6.11,../static/ThumbsUp.png,Low,A normal human gut does house some levels of pathogens which may or may not cause any infection or inflammation. Presence of these pathogens does not necessarily imply disease. Your gut has a low abundance of pathogens.
+Energy Producers,5.77,../static/ThumbsDown.png,Low,"Low energy producing bacteria can result in energy lags during the day, and disturbances to overall gut health and increased inflammation."
+Weight Influencer,3.86,../static/ThumbsUp.png,Low,
+Carbohydrate Fermenter,1.35,../static/ThumbsDown.png,Low,"A Low level of carbohydrate metabolism can result in reduced SCFAs, impact inflammatory response, reduce satiety hormone levels, and even influence the intestinal barrier."
+Nutrient Synthesis,1.35,Absent,Low,Not present
+Heart Health Influencer,1.3,../static/ThumbsUp.png,Low,You have an advantage to have a Low abundance of bacteria that negatively impact your health health.

@@ -1,0 +1,13 @@
+Labels,SUM of IOM025FX210924,Indicator,Levels,Text
+Insulin Metabolism,55.03,Alarm,High,A high abundance of insulin resistence bacteria shows a distinct pattern to carbohydrate metabolism and an increased movement towards metabolic challenges.
+Dietary Fibre Degrader,51.46,../static/ThumbsDown.png,High,"However, excessive fibre fermentation/intake is seen with digestive distress ranging from constipation to diarrhoea, bloating, reduction in appetite and early satiety"
+Lactic Acid Producer,25.93,../static/ThumbsDown.png,High,"However, a High abundance of LABs has been seen in those with gut inflammation, weight gain, insulin resistence and other metabolic disorders"
+Probiotic,15.23,../static/Moderate.png,Medium,"A moderate to high abundance of these bacteria contributes to various health benefits in particular realted to gut function , digestive health and reducing inflammation."
+Carbohydrate Fermenter,11.98,../static/Moderate.png,Medium,"Carbohydrate-fermenting bacteria contribute to gut health and may have beneficial effects on metabolic health, immune function, and protection against aging and neurocognitive diseases."
+Immunity,6.31,../static/ThumbsDown.png,Low,Low immunity bacteria may have a causal role in reduced immunity contributing to development of immune-mediated conditions.
+Energy Producers,5.28,../static/ThumbsDown.png,Low,"Low energy producing bacteria can result in energy lags during the day, and disturbances to overall gut health and increased inflammation."
+Heart Health Influencer,4.77,../static/ThumbsUp.png,Low,You have an advantage to have a Low abundance of bacteria that negatively impact your health health.
+Protein Metabolism,3.09,../static/ThumbsDown.png,Low,"A Low abundance of these useful bacteria adds to inflammation, non-communicable conditions and poor health outcomes."
+Gut Inflammation,2.71,Absent,Low,Not present
+Weight Influencer,1.99,../static/ThumbsUp.png,Low,
+Fat Intake,0.74,Absent,Low,Not present
