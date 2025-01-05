@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import sys
 
+# Function to determine the tag and level based on a given score
 def find_tag(score):
     if score > 20:
         tag = 'Tag1'
@@ -17,25 +18,29 @@ def find_tag(score):
         tag = 'Absent'
     return tag, level
 
+# Function to assign tags, levels, and text to a dataframe based on conditions
 def assign_tags(df, tags_tab, text_tags_db):
-    tag_list = []
-    level_list = []
-    texts = []
-    tags = []
+    tag_list = []  # To store the assigned tags
+    level_list = []  # To store the assigned levels
+    texts = []  # To store the corresponding text descriptions
+    tags = []  # To store the final tag values
 
     for index, row in df.iterrows():
-        score = row[df.columns[1]]
-        label = row['Labels']
+        score = row[df.columns[1]]  # Second column in the dataframe contains scores
+        label = row['Labels']  # Labels column to match with tags and texts
         
+        # Get tag and level for the current score
         tag, level = find_tag(score)
         tag_list.append(tag)
         level_list.append(level)
 
+        # Check if the label exists in the tags table
         if label in tags_tab['Label'].values:
             tagg = tags_tab[tag][tags_tab['Label'] == label].values[0]
         else:
             tagg = 'Absent'
 
+        # Check if the label exists in the text-tags database
         if label in text_tags_db['List Of Tags'].values:
             text = text_tags_db[tag][text_tags_db['List Of Tags'] == label].values[0]
         else:
@@ -44,15 +49,17 @@ def assign_tags(df, tags_tab, text_tags_db):
         texts.append(text)
         tags.append(tagg)
 
+    # Add the new columns to the dataframe
     df['Indicator'] = tags
     df['Levels'] = level_list
     df['Text'] = texts
     return df
 
+# Main function to process files and generate outputs
 def main(input_file1, input_file2, text_tags_file, tags_table_file, output_file1, output_file2):
     # Load the input dataframes
-    df1 = pd.read_csv(input_file1)
-    df2 = pd.read_csv(input_file2)
+    df1 = pd.read_csv(input_file1)  # First input file
+    df2 = pd.read_csv(input_file2)  # Second input file
 
     # Automatically detect the column name starting with "IOM"
     iom_id = next((col for col in df2.columns if col.startswith("IOM")), None)
@@ -78,12 +85,12 @@ def main(input_file1, input_file2, text_tags_file, tags_table_file, output_file1
     
     # Create a pivot table with "Labels" as index and sum of the IOM ID column
     pivot_table = df3.pivot_table(
-        index="Labels",               
-        values=iom_id,                
-        aggfunc="sum"                 
+        index="Labels",               # Group by Labels
+        values=iom_id,                # Use the IOM ID column for aggregation
+        aggfunc="sum"                 # Aggregate using sum
     ).round(2).reset_index()
 
-    # Rename the column dynamically
+    # Rename the column dynamically to indicate it's a sum
     pivot_table.rename(columns={iom_id: f"SUM of {iom_id}"}, inplace=True)
 
     # Sort the pivot table by the dynamically named column
@@ -101,13 +108,14 @@ def main(input_file1, input_file2, text_tags_file, tags_table_file, output_file1
 
     print(f"Output saved to: {output_file2}")
 
+# Entry point of the script
 if __name__ == "__main__":
     # Check for correct number of arguments
     if len(sys.argv) < 5:
         print("Usage: python3 Sens_automation.py IOM_file Reference.csv Text_for_tags.csv Tags_table_sens+.csv")
         sys.exit(1)
 
-    # Input arguments
+    # Input arguments from command line
     iom_file = sys.argv[1]
     reference_file = sys.argv[2]
     text_tags_file = sys.argv[3]
@@ -115,8 +123,8 @@ if __name__ == "__main__":
 
     # Set up directories
     base_dir = "/Users/rajathtalpady/Desktop/Iom_Bioworks/Sens_Automation"
-    input_dir = os.path.join(base_dir, "input")
-    output_dir = os.path.join(base_dir, "output")
+    input_dir = os.path.join(base_dir, "input")  # Input directory
+    output_dir = os.path.join(base_dir, "output")  # Output directory
     os.makedirs(output_dir, exist_ok=True)
 
     # Input and output file paths
@@ -125,12 +133,13 @@ if __name__ == "__main__":
     text_tags_file_path = os.path.join(input_dir, text_tags_file)
     tags_table_file_path = os.path.join(input_dir, tags_table_file)
 
+    # Define output file names
     sens_output_name = f"{os.path.splitext(iom_file)[0]}_SENS.csv"
     final_file_name = f"{os.path.splitext(iom_file)[0]}_SENS_Final_Output.csv"
     sens_file_path = os.path.join(output_dir, sens_output_name)
     final_file_path = os.path.join(output_dir, final_file_name)
 
-    # Run the main function
+    # Run the main function with the file paths
     main(reference_file_path, iom_file_path, text_tags_file_path, tags_table_file_path, sens_file_path, final_file_path)
     
     # Command: python3 Sens_automation.py IOM025FX210924.csv Reference.csv Text_for_tags.csv Tags_table_sens.csv
