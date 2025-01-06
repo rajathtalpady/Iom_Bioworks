@@ -103,16 +103,9 @@ python3 Nature_nurture_automation.py IOM119F130723_Meta_data_Notes.csv reference
 
 ---
 
-## Future Improvements
-- Add support for customizable starting columns.
-- Implement logging for better traceability.
-- Expand matching logic for more complex remedy names.
-
----
-
 ## Contact
 For issues or questions, please contact:
-**Rajat Talpady**
-- Email: rajathtalpady@example.com
+**Rajath Talpady**
+- Email: rajath@iombio.com
 - GitHub: [github.com/rajathtalpady](https://github.com/rajathtalpady)
 
