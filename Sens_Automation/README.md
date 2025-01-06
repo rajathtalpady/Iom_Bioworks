@@ -120,16 +120,9 @@ python3 Sens_automation.py IOM025FX210924.csv Reference.csv Text_for_tags.csv Ta
 
 ---
 
-## Future Improvements
-- Add support for customizable score thresholds and tag logic.
-- Implement logging for better debugging.
-- Add visualization of the pivot table output.
-
----
-
 ## Contact
 For issues or questions, please contact:
-**Rajat Talpady**
-- Email: rajathtalpady@example.com
+**Rajath Talpady**
+- Email: rajath@iombio.com
 - GitHub: [github.com/rajathtalpady](https://github.com/rajathtalpady)
 
