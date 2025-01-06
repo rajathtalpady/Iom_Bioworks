@@ -97,7 +97,7 @@ The script automatically creates the output directory if it does not exist.
 
 ## Example Command
 ```bash
-python3 Food.py IOMID_Final.csv IOMID_Tokens.csv
+python3 Token_food_final.py IOMID_Final.csv IOMID_Tokens.csv
 ```
 
 ---
