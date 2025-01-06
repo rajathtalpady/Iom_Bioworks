@@ -2,8 +2,6 @@ import os
 import sys
 import pandas as pd
 
-import pandas as pd
-
 def append_matched_data_to_csv(input_csv_1, input_csv_2, input_csv_3, output_csv, start_column=80):
     # Load the input CSVs
     df1 = pd.read_csv(input_csv_1)
