@@ -1,0 +1,28 @@
+Id,Value,Percentage (+1),,,,,,
+Your Initial Gut Score,Learner,,,,,,,
+Your Initial Gut Score (percentage),61.75166667,,,,,,,
+Your Final Gut Score,Competent,,,,,,,
+Your Final Gut Score (percentage),90.45666667,,,,,,,
+performanceGain,1.7223,,,,,,,
+initial gut score,3.7051,,,,,,,
+energy,0.6778,,,,,,,
+sleep,0.2773,,,,,,,
+stress,0.7672,,,,,,,
+Energy_Available_initial,-0.0045,49.8,,,,,,
+Energy_Available_final,0.2922,64.6,,,,,,
+Energy_Fatigue_initial,0.2345,61.7,38.3,,,,,
+Energy_Fatigue_final,0.6156,80.8,19.2,,,,,
+Sleep_Quality_initial,0.0132,50.7,,,,,,
+Sleep_Quality_final,0.1173,55.9,,,,,,
+Sleep_Duration_initial,-0.0804,46,,,,,,
+Sleep_Duration_final,-0.08,46,,,,,,
+Sleep_Efficiency_initial,-0.0732,46.3,,,46.3,55,,
+Sleep_Efficiency_final,0.0996,55,,,,45.70582428,54.29417572,
+Stress_Anxiety_initial,0.0071,50.4,49.6,,,,,
+Stress_Anxiety_final,0.4788,73.9,26.1,,,,,
+Stress_Depression_initial,0.3723,68.6,31.4,,,,,
+Stress_Depression_final,0.3717,68.6,31.4,,,Anchor,Score,Max SCore
+Stress_Stress_initial,0.2361,61.8,38.2,,,,,100
+Stress_Stress_final,0.5322,76.6,23.4,,,Stress_Anxiety_initial,49.6,149.6
+alphadiversity_initial,3.097607104,204.9,,,,Stress_Anxiety_final,26.1,126.1
+alphadiversity_optimal,3.105312776,205.3,,,,,,
