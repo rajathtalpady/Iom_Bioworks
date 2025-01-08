@@ -48,6 +48,14 @@ This Python script generates graphical visualizations from a CSV file containing
 
    Replace `<csv_file_name>` with the name of your CSV file, e.g., `IOMHPL006_Data.csv`.
 
+### Example Command
+
+To run the script with an example file named `IOMHPL006_Data.csv`, use the following command:
+
+```bash
+python3 chart.py IOMHPL006_Data.csv
+```
+
 3. Find the generated charts in the `output` directory:
 
    ```
@@ -97,6 +105,5 @@ Contributions are welcome! Please submit a pull request or raise an issue for an
 
 ## Contact
 
-For any questions or feedback, feel free to reach out at rajath.iombio.com
-
+For any questions or feedback, feel free to reach out at rajath@iombio.com.
 
