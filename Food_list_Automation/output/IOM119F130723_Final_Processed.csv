@@ -1,0 +1,28 @@
+Food_groups,Eat freely (take),Reduce eating
+Dry Fruits & Nuts,"Raisin, Raisins, Dried apricot, Fig
+#Increases: Ruminococcus
+#Decreases: Prevotella","Almond, Walnut, Cashews, Dates
+#Increases: Lactobacillus
+#Decreases: Anaerostipes"
+Fruits,"Apple, Grapes, Kiwi Fruit Powder, Pear, Guava, Orange, Goose berry, Muskmelon
+#Increases: Ruminococcus, Dorea","Banana, Berries, Berries’ polyphenols, Pomegranate, Persimmons, Custard apple, Mango ripe, Jackfruit
+#Increases: Lactobacillus"
+Grains,"Wheat, Ragi, Quinoa, Horse gram, Lentils, Masoor dal
+#Increases: Anaerostipes, Ruminococcus, Bifidobacterium","Brown rice, Jowar, Moong, Wheat Bran, Refined flour, Corn flour, Chickpea, Kidney beans, Toor dal
+#Increases: Lactobacillus, Prevotella, Enterococcus
+#Decreases: Anaerostipes"
+Others,"Chicory, Chokeberry, Conventional soy milk (26.5% β-conglycinin/38.7% glycinin), Orange Juice, Chamomile tea, Foxnuts, Soya chunks
+#Increases: Anaerostipes
+#Decreases: Lactobacillus","Black Tea, Dealcoholized red wine, Fermented soy milk, Green Tea, Guar gum, Honey, Kefir, Oolong Tea, Red wine, Red wine polyphenols, Regular soy milk, Soy isoflavones, Egg, Fish , Chicken, Mutton, Beef, Pork, White sugar, Jaggery, Tofu, Paneer, Coconut milk, Almond milk, Oats milk, Tea, Coffee, Skim milk, Curd, Yoghurt
+#Increases: Lactobacillus, Enterococcus, Fusicatenibacter, Prevotella
+#Decreases: Lactobacillus"
+Seeds,"Sesame seeds, Fenugreek seeds, Cumin seeds
+#Nutritional Balance","Chia, Mustard seeds
+#Increases: Lactobacillus, Enterococcus"
+Spices,"Garlic, Cinnamon, Cardamom, Ginger
+#Increases: Anaerostipes","Curcumin, Red Chili powder, Garam masala
+#Increases: Enterococcus, Citrobacter
+#Decreases: Ruminococcus"
+Vegetables,"Leek, Tomato, Onion, Beans, Spinach, Drumstick, Asparagus, Okra, Bottle gourd, Brinjal
+#Increases: Anaerostipes, Ruminococcus, Bifidobacterium","Carrot, mango peel and paste, cooked & cooled Potato, Sweet potato, Unripe banana, Broccoli, Beetroot, Cauliflower, Pumpkin
+#Decreases: Ruminococcus, Fusicanternibacter"
