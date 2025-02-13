@@ -118,3 +118,5 @@ if __name__ == "__main__":
 
     # Generate graphs
     generate_graphs(csv_file, output_dir)
+    
+    # Command: python3 Sens_2.0_charts.py IOMHPL006_Scores.csv 
